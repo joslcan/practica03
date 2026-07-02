@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Hamburguesa Clásica",
+      "categoria": "Hamburguesas",
+      "precio": 18.9,
+      "descripcion": "Carne de res a la parrilla, queso cheddar, lechuga fresca, tomate y papas fritas."
+    },
+    {
+      "id": 2,
+      "nombre": "Hamburguesa Doble Bacon",
+      "categoria": "Hamburguesas",
+      "precio": 24.5,
+      "descripcion": "Doble carne, tocino crocante, queso fundido, cebolla caramelizada y salsa especial."
+    },
+    {
+      "id": 3,
+      "nombre": "Pizza Suprema",
+      "categoria": "Pizzas",
+      "precio": 32,
+      "descripcion": "Pizza artesanal con jamón, pepperoni, pimiento, aceitunas negras y abundante queso mozzarella."
+    },
+    {
+      "id": 4,
+      "nombre": "Pizza Hawaiana",
+      "categoria": "Pizzas",
+      "precio": 30,
+      "descripcion": "Masa crujiente, salsa de tomate, jamón, trozos de piña y queso gratinado."
+    },
+    {
+      "id": 5,
+      "nombre": "Pollo Broaster Familiar",
+      "categoria": "Pollo",
+      "precio": 36.9,
+      "descripcion": "Piezas de pollo broaster crocante, papas fritas, ensalada fresca y cremas de la casa."
+    },
+    {
+      "id": 6,
+      "nombre": "Combo Broaster Personal",
+      "categoria": "Pollo",
+      "precio": 21.5,
+      "descripcion": "1 presa de pollo broaster, papas crocantes, ensalada y bebida personal."
+    }
+  ]
+}

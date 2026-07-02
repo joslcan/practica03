@@ -1,29 +1,24 @@
-export default function Contact() {
+import Form from "../components/Form";
+
+function Contact() {
   return (
-    <div className="container mx-auto p-6">
-      <h2 className="text-3xl font-semibold text-wine mb-6">Contáctanos</h2>
-      <form className="space-y-4 max-w-md mx-auto">
-        <input
-          type="text"
-          placeholder="Nombre"
-          className="w-full border border-gray-300 p-2 rounded"
-        />
-        <input
-          type="email"
-          placeholder="Correo"
-          className="w-full border border-gray-300 p-2 rounded"
-        />
-        <textarea
-          placeholder="Mensaje"
-          className="w-full border border-gray-300 p-2 rounded h-32"
-        ></textarea>
-        <button
-          type="submit"
-          className="bg-wine text-white px-6 py-2 rounded hover:bg-clay transition"
-        >
-          Enviar
-        </button>
-      </form>
-    </div>
+    <section className="max-w-7xl mx-auto px-6 py-16">
+      <div className="max-w-3xl mx-auto text-center mb-10">
+        <p className="uppercase tracking-[4px] text-red-600 font-semibold mb-3">
+          Contáctanos
+        </p>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-800">
+          Reserva, consulta o envíanos tu mensaje
+        </h1>
+        <p className="mt-4 text-slate-600 leading-7">
+          Completa el formulario y nos pondremos en contacto contigo para resolver
+          tus dudas, recibir pedidos o gestionar reservas.
+        </p>
+      </div>
+
+      <Form />
+    </section>
   );
 }
+
+export default Contact;

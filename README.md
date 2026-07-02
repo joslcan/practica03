@@ -1,16 +1,49 @@
-# React + Vite
+# FastBites - AP3 React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción del proyecto
+FastBites es una aplicación web desarrollada en React como parte del curso de JavaScript Avanzado.  
+La temática del proyecto está basada en un restaurante de comida rápida, presentando una interfaz moderna y responsive para mostrar información del negocio, su menú, promociones y un formulario de contacto.
 
-Currently, two official plugins are available:
+## Objetivo
+Desarrollar una aplicación web utilizando React, aplicando los conocimientos adquiridos durante el curso sobre:
+- Componentes reutilizables
+- Hooks (`useState`, `useEffect`)
+- React Router DOM
+- Formularios con validación
+- Consumo de servicios REST con Fetch API
+- Tailwind CSS
+- JSON Server
+- Git y GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
+- React
+- Vite
+- React Router DOM
+- JavaScript ES6+
+- HTML5
+- CSS3
+- Tailwind CSS
+- JSON Server
+- Fetch API
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Estructura del proyecto
+```bash
+src/
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Card.jsx
+│   └── Form.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Contact.jsx
+│   └── NotFound.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
